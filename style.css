@@ -1,0 +1,14 @@
+input {
+    border: 2px solid grey;  /* Add border to each cell */
+              /* Add padding inside cells */
+    /* text-align: center;      Center align text inside cells */
+    font-size: 25px;
+    width: 40px;
+    margin: 10px;
+}
+
+.calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

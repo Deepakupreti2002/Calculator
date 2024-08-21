@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">   
+    <table style="border: 5px  solid grey; width: 500px;" >
+        <tr>
+            <td colspan="4"><input placeholder="Enter a number" type="text" id="result_value" style="border: 2px  solid black; width: 500px; height: 40px; "></td>
+        </tr>
+        <tr>
+            <td><input onclick="click_button(this)" type="button" value="7"></td>
+            <td><input onclick="click_button(this)"  type="button" value="8"></td>
+            <td><input onclick="click_button(this)" type="button" value="9"></td>
+            <td><input onclick="plus_button(this)" type="button" value="+"></td>
+        </tr>
+        <tr>
+            <td><input onclick="click_button(this)" type="button" value="6"></td>
+            <td><input onclick="click_button(this)" type="button" value="5"></td>
+            <td><input onclick="click_button(this)" type="button" value="4"></td>
+            <td><input onclick="minus_button(this)"  type="button" value="-"></td>
+        </tr>
+        <tr>
+            <td><input onclick="click_button(this)" type="button" value="3"></td>
+            <td><input onclick="click_button(this)" type="button" value="2"></td>
+            <td><input onclick="click_button(this)" type="button" value="1"></td>
+            <td><input onclick="multiply_button(this)" type="button" value="*"></td>
+        </tr>
+        <tr>
+            <td><input onclick="divide_button(this)" type="button" value="/"></td>
+            <td><input onclick="click_button(this)" type="button" value="0"></td>
+            <td><input onclick="click_button(this)" type="button" value="."></td>
+            <td><input onclick="equal_button(this)" type="button" value="="></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+<script src="./script.js"></script>
+</html>
